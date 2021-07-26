@@ -66,7 +66,7 @@ button.navbar-toggler {
 }
 
 #main-content {
-  margin-top: 12px;
+  margin-top: 20px;
 }
 
 #call-btn a {
@@ -92,9 +92,114 @@ button.navbar-toggler {
   border: 2px solid #3f0c1f;
 }
 
-@media (max-width: 575.98px) {
+#home-tiles {
+  margin-top: 25px;
+}
+
+#menu-tile,
+#specials-tile,
+#map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+}
+
+#menu-tile:hover,
+#specials-tile:hover,
+#map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url("/images/menu-tile.jpg");
+  background-position: center;
+}
+
+#specials-tile {
+  background: url("/images/specials-tile.jpg");
+  background-position: center;
+}
+
+#home-tiles span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+}
+
+@media (max-width: 383.98px) {
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 4.9vw;
+  }
+
+  .navbar-brand p {
+    font-size: 0.5em;
+  }
+
+  .navbar-brand p img {
+    height: 20px;
+  }
+
+  #nav-list a {
+    font-size: 1.2em;
+  }
+
+  #nav-list a i {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
   #main-content {
     margin-top: 1.1em;
+  }
+
+  #menu-tile,
+  #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+}
+
+@media (min-width: 384px) and (max-width: 575.98px) {
+  .navbar-brand h1 {
+    font-size: 5vw;
+  }
+
+  .navbar-brand p {
+    font-size: 0.5em;
+  }
+
+  .navbar-brand p img {
+    height: 20px;
+  }
+
+  #nav-list a {
+    font-size: 1.2em;
+  }
+
+  #nav-list a i {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #main-content {
+    margin-top: 1.1em;
+  }
+
+  #menu-tile,
+  #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
   }
 }
 
@@ -113,6 +218,10 @@ button.navbar-toggler {
     margin-right: 7px;
   }
 
+  .navbar-nav {
+    margin-top: 25px;
+  }
+
   .navbar-brand p {
     margin-top: 8px;
   }
@@ -123,9 +232,9 @@ button.navbar-toggler {
   }
 }
 
-@media (max-width: 991.98px) {
+@media (min-width: 576px) and (max-width: 991.98px) {
   .navbar-brand h1 {
-    font-size: 4.3vw;
+    font-size: 4.2vw;
   }
 
   .navbar-brand p {

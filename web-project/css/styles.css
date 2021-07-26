@@ -1,0 +1,158 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: "Oxygen", sans-serif;
+}
+
+#header-nav {
+  background-color: #f6b319;
+}
+
+.navbar-brand h1 {
+  padding-top: 25px;
+  font-family: "Lora", serif;
+  color: #557c3e;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+
+.navbar-brand p {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  margin-top: 15px;
+}
+
+.navbar-brand p span {
+  vertical-align: middle;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+#nav-list a {
+  color: #951c49;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+
+#nav-list a i {
+  font-size: 1.8em;
+}
+
+#phone {
+  padding-top: 0;
+  font-size: 1.8em;
+}
+
+#phone div {
+  text-align: right;
+  color: #557c3e;
+  font-size: 0.5em;
+}
+
+button.navbar-toggler {
+  border: 1px solid #61122f;
+}
+
+#main-content {
+  margin-top: 12px;
+}
+
+#call-btn a {
+  font-size: 1.5em;
+  display: block;
+  margin: 0 15px;
+  margin-top: 0.7em;
+  padding: 10px;
+  border: 2px solid #fff;
+  background-color: #f6b319;
+  color: #951c49;
+}
+
+#xs-deliver {
+  margin-top: 5px;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.container .jumbotron {
+  box-shadow: 0 0 50px #3f0c1f;
+  border: 2px solid #3f0c1f;
+}
+
+@media (max-width: 575.98px) {
+  #main-content {
+    margin-top: 1.1em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .jumbotron {
+    background: url("/images/jumbotron_768.jpg") no-repeat;
+    height: 432px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1198.98px) {
+  #logo-img {
+    background: url("../images/restaurant-logo_medium.png") no-repeat;
+    width: 100px;
+    height: 100px;
+    margin-right: 7px;
+  }
+
+  .navbar-brand p {
+    margin-top: 8px;
+  }
+
+  .jumbotron {
+    background: url("../images/jumbotron_992.jpg") no-repeat;
+    height: 558px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-brand h1 {
+    font-size: 4vw;
+  }
+
+  .navbar-brand p {
+    font-size: 0.5em;
+  }
+
+  .navbar-brand p img {
+    height: 20px;
+  }
+
+  #nav-list a {
+    font-size: 1.2em;
+  }
+
+  #nav-list a i {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #main-content {
+    margin-top: 1.3em;
+  }
+
+  .jumbotron {
+    background: url("../images/jumbotron_1200.jpg");
+    height: 675px;
+  }
+}

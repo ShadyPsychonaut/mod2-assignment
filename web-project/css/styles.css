@@ -127,6 +127,11 @@ footer div.row {
 /*END FOOTER*/
 
 /*MENU CATEGORIES PAGE*/
+
+#menu-categories-subheading {
+  margin-top: 15px;
+}
+
 .category-tile {
   position: relative;
   border: 2px solid #3f0c1f;
@@ -154,7 +159,7 @@ footer div.row {
 }
 
 #menu-categories-title + div {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 /*END MENU CATEGORIES PAGE*/
 

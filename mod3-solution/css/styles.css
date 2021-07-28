@@ -1,0 +1,47 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: "Oxygen", sans-serif;
+}
+
+/*NAVBAR*/
+#nav-header {
+  background-color: #0dcaf0;
+}
+
+.navbar-brand h1 {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#nav-list {
+  font-size: 1.3em;
+  font-weight: 800;
+}
+
+.nav-item:hover {
+  background-color: #fff;
+}
+/*NAVBAR END*/
+
+/*MAIN CONTENT*/
+#main-content h2 {
+  margin-top: 20px;
+  font-weight: 800;
+}
+
+#main-content section {
+  margin-top: 30px;
+}
+
+.section-item {
+  background-color: #b9f2ff;
+  padding: 10px 25px;
+  margin-bottom: 30px;
+}
+
+.section-item h3 {
+  text-align: center;
+}
+/*MAIN CONTENT END*/
